@@ -1,0 +1,83 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+body{
+    background-color: black;
+    background-image: url(https://64.media.tumblr.com/43c8ec1ebd431267cefe1720af894d3a/0e0f6a2f5159deaa-5b/s800x450/be155f62210ee3b3bf5bad8aee68dddbae98f647.gif);
+    background-size: auto;
+}
+
+#headerContent{
+    margin-top: 40px;
+}
+
+#profileImg{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+@media screen and (max-width: 425px) {
+    #headerContent{
+        margin-left: 160px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #headerContent{
+        margin-left: 210px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #headerContent{
+        margin-left: 220px;
+    }
+}
+
+#title{
+    color: white;
+}
+
+#mainContent{
+    margin-top: 30px;
+}
+
+#buttonLink {
+    width: 500px;
+    height: 60px;
+    border: 1px solid rgb(73, 73, 73);
+    border-radius: 10px;
+    background-color: rgb(24, 23, 23);
+    margin-left: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+#buttonLink:hover{
+    border: 10px;
+    background-color: rgb(53, 51, 51);
+}
+
+#colImg{
+    width: 55px;
+}
+
+#iconSocial{
+    margin-top: 4px;
+    height: 50px;
+    width: 50px;
+}
+
+#buttonLink h2{
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    line-height: 55px;
+    margin-right: 25px;
+}
